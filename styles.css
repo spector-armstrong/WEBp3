@@ -1,0 +1,66 @@
+body {
+    font-family: Nabla;
+    background-color: #450693;
+}
+
+header {
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.header > * {
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.scoreContainer {
+    background-color: #ff3f7f4c;
+    height: 100%;
+    width: 20%;
+    border-radius: 15px;
+    border: 7px solid #ff3f7f;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreContainer > * {
+    margin: 0px;
+}
+
+button {
+    background-color: #ff3f7f4c;
+    border: 7px solid #FFC400;
+    height: 100%;
+    width: 8%;
+    border-radius: 15px;
+    font-size: 3em;
+}
+
+button:hover {
+    background-color: #58162c4c;
+    border-color: #5b4600;
+}
+
+.container {
+    border: 5px solid #FFC400;
+    background-color: #f8e091;
+    max-width: 75vh;
+    margin-top: 30px;
+}
